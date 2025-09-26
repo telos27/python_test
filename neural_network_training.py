@@ -77,7 +77,7 @@ def train_neural_network():
 
         # Backward pass and optimization
         optimizer.zero_grad()
-        loss.backward()
+        # loss.backward()
         optimizer.step()
 
         # Calculate accuracy
