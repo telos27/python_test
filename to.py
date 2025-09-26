@@ -17,7 +17,7 @@ def numpy_tensor_operations():
     print(f"A * B (element-wise):\n{a * b}")
 
     # Matrix multiplication
-    c = np.array([[1, 2,11], [3, 4,12], [5, 6,13]])
+    c = np.array([[1, 2,11], [3, 4,12])
     print(f"Matrix C:\n{c}")
     print(f"A @ C (matrix multiplication):\n{a @ c}")
 
